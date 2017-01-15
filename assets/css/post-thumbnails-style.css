@@ -1,0 +1,62 @@
+.post-thumbnail-layout-big {
+  position: relative;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.post-thumbnail-container {
+  margin: 20px 0px;
+}
+
+.no-image-big {
+  width:100%;
+  height:100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.post-thumbnail-layout-big .post-thumbnail-title {
+  position: absolute;
+  top:5px;
+  left:15px;
+  font-size: 30px;
+}
+
+.post-thumbnail-layout-big .post-thumbnail-desc {
+  display: none;
+
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 98%;
+  background-color: rgba(0,0,0,0.5);
+  transition: all 0.5s ease;
+}
+
+.post-thumbnail-layout-big:hover .post-thumbnail-desc {
+  display: block;
+}
+
+.post-thumbnail-layout-big .post-thumbnail-desc p {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.post-thumbnail-left,
+.post-thumbnail-right {
+  width: 48%;
+  display: inline-block;
+}
+
+.post-thumbnail-left {
+  float: left;
+}
+
+.post-thumbnail-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
